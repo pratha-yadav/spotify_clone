@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link  rel="icon" href="./assests/logo.png">
+    <title>Spotify - Web Player : Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+        <div class="nav"> 
+            <div class="nav-option"  style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+        </div>
+        </div>
+            <div class="library">
+                <div class="option" >
+                    <div class="lib-option nav-option">
+                <img src="./assests/library_icon.png">
+                <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+             </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                            <p class="box-p2">It's easy, we'll help you</p>
+                            <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Lets's find some podcasts to follow</p>
+                            <p class="box-p2">We'll keep you updatred on new episodes</p>
+                            <button class="badge">Browes podcasts</button>
+                    </div>
+                </div>
+                 </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav"> 
+                <div class="sticky-nav-icon">
+                <img src="./assests/forward_icon.png" class="hide">
+                <img class="image" src="./assests/back.png">
+                </div>
+                <div class="sticky-nav-option">
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-arrow-down" style="margin-right:5px ;"></i> Install App</button>
+                <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div> 
+
+               <h2>Recently Played</h2>
+                <div class="cards-container">
+                <div class="card">
+                <img src="./assests/card1img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+                </div>
+             </div>
+             <h2>Trending now new you</h2>
+             <div class="cards-container">
+                <div class="card">
+                <img src="./assests/card2img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+        </div>
+                <div class="card">
+                <img src="./assests/card3img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+        </div>
+                <div class="card">
+                <img src="./assests/card4img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+        </div>
+                <div class="card">
+                <img src="./assests/card3img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+        </div>
+                <div class="card">
+                <img src="./assests/card4img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+        </div>
+             </div>
+                <h2>Feature Charts</h2>
+                <div class="cards-container">
+                <div class="card">
+                <img src="./assests/card5img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+                </div>
+                <div class="card">
+                <img src="./assests/card6img.jpeg" class="card-img">
+                <p class="card-title">Top Song India</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+                </div>
+                <div class="card">
+                <img src="./assests/card1img.jpeg" class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played tracks..</p>
+             </div>
+             </div>
+             <div class="footer">
+                <div class="line"></div>
+             </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                <img src="./assests/album.jpg" class="album-img">
+                <a class="a1" href="#">Kayenaat</a>
+                </div>
+            </div>
+            <div class="icon-album">
+                 <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="icons-album">
+                 <svg class="a2"xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg>
+                </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assests/player_icon1.png" class="player-controls-icons">
+                    <img src="./assests/player_icon2.png" class="player-controls-icons">
+                    <img src="./assests/player_icon3.png"class="player-controls-icons" style="opacity: 1;height: 1.7rem;" >
+                    <img src="./assests/player_icon4.png"class="player-controls-icons" >
+                    <img src="./assests/player_icon5.png" class="player-controls-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tot-time">33.33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="controls-icon">
+                <img src="./assests/file-play.svg" class="controls-icons">
+                <img src="./assests/mic.png.svg" class="controls-icons">
+                <img src="./assests/list.png" class="controls-icons">
+                <img src="./assests/device.png.png" class="controls-icons"> 
+                <img src="./assests/vol.png" class="controls-icons">
+                    <input type="range" min="0" max="100" class="vol-bar" >
+                </div>
+           </div>
+    </div> 
+    </div>
+    
